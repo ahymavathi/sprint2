@@ -1,0 +1,100 @@
+/* Reset some default styles and set a basic font */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #4c0ca0;
+}
+
+/* Wrapper styles */
+.wrapper {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color:palegreen;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+i.bx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #777;
+}
+
+/* Remember and Forgot styles */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color:black;
+}
+
+/* Button styles */
+.btn {
+    background-color: #4caf50;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:greenyellow;
+}
+
+/* Register link styles */
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link p {
+    color: red;
+}
+
+.register-link a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 90%;
+    }
+}

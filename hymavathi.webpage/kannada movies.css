@@ -1,0 +1,37 @@
+/* Reset some default styles */
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: yellow;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: greenyellow; /* Set the color to your preference */
+}
+
+img {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+image caption {
+    margin-top: 5px;
+    font-style: italic;
+    color:yellowgreen;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Add more styles as needed */
